@@ -12,7 +12,7 @@
              <!--cabeçalho  -->
   <nav class="navbar navbar-expand-lg" style="background-color:#ffff;">
     <div class="container-fluid">
-        <img src="imagens/Logo_coffee.svg" alt="logo" width="70" class="d-inline-block align-text-top">
+        <img src="imagens/Logo_coffee.svg" alt="logo" width="50" class="d-inline-block align-text-top">
            
             <!-- conteiner apresentação do site  -->
      <div class="collapse navbar-collapse" id="pedido">
@@ -44,49 +44,61 @@
                 <!-- Produtos -->
     <section class="card-group mt-4">
              
-          <div class="card m-3" style="width: 18rem;">
+          <article class="card m-3" style="width: 18rem;">
               <img src="imagens/100_arabica.svg" class="card-img-top" alt="arabica">
             <div class="card-product" style="text-align: center;">
                 <p class="card-text" style="margin-top: 10px;">Nossa loja de café se encontra em um lugar, 100% fictício, porém caso se sinta     interessado pode vir tomar um café conosco em nossa sede em São José dos Campos.</p>
                 <button type="button" class="btn" style="background: #2A3342; color: white; width: 190px; margin-top:1px; margin-bottom:20px;
                 border-radius: 10px;">COMPRAR AGORA</button>
             </div>
-          </div>                
+          </article>                
                         
-          <div class="card m-3" style="width: 18rem;">
+          <article class="card m-3" style="width: 18rem;">
               <img src="imagens/xicara_cafe.svg" class="card-img-top" alt="xicara">
             <div class="card-product"  style="text-align: center;">
                <p class="card-text" style="margin-top: 10px;">Nossa casa de café é a melhor da região, aqui você tem tudo que precisa, uma boa conversar, bons amigos e um ambiente sem igual. Aproveite, pois Melhor que a DNC não existe!</p>
                <button type="button" class="btn" style="background: #2A3342;color: white; margin-top:2px; width: 190px;
                border-radius: 10px;">COMPRAR AGORA</button>
-            </div>
-            </div>
-          </div>
+            </div>            
+          </article>
                           
-          <div class="card m-3" style="width: 18rem;">
+          <article class="card m-3" style="width: 18rem;">
                <img src="imagens/grao_cafe.svg" class="card-img-top" alt="grao">
              <div class="card-product"  style="text-align: center;">
                  <p class="card-text" style="margin-top: 10px;">Por que a DNC? Porque podem contar sempre com um serviço genuíno, uma atmosfera acolhedora e uma incrível xícara de café, torrado por especialistas e preparado de forma enriquecedora.</p>
                  <button type="button" class="btn" style="background: #2A3342;color: white; width: 190px; margin-top: 2px; 
                 border-radius: 10px;">COMPRAR AGORA</button>
-            </div>
              </div>
-          </div>
+          </article>
           
-          <div class="card m-3" style="width: 20rem;">
+          <article class="card m-3" style="width: 20rem;">
                 <img src="imagens/cafe_derram.svg" class="card-img-top" alt="vapor">
              <div class="card-product"  style="text-align: center;">
                   <p class="card-text" style="margin-top: 10px;">A escola especialista em formar talentos, com foco em empregabilidade, migração de carreira e aumento de performance.</p>
                   <button type="button" class="btn" style="background: #2A3342;color: white; width: 190px; margin-top:50px; 
                 border-radius: 10px;">COMPRAR AGORA</button>
-            </div>
-              </div>
-          </div>           
+             </div>
+          </article>           
 
     </section>
+                <!-- MODAL -->
+    <div class="modal fade" id="sobre" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content p-5">
+                <div>
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+               <h2 class="text-center fw-light">Quem somos nós? </h2>
+                <p class="p-3 fw-light text-center">Tudo o que fazemos procura respeitar essa conexão, desde nosso compromisso com o café de melhor qualidade do mundo até a forma como nós interagimos com nossos clientes e nossas comunidades para conduzir nosso negócio de modo responsável.
+                </p>       
+        
+                <img src="./assets/images/sobre.png" width="100" class="mx-auto">
+
+            </div>
+        </div>
+    </div>
     
-    
-      
+    <script src="./script.js"></script>
       
 </body>
 </html>
