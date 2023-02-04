@@ -1,7 +1,4 @@
-body{
-    display: flex;
-    flex-direction: column;
-}
+
 
 #modalLugar{
     width: 100%;
@@ -35,5 +32,8 @@ body{
         background-color: #2a3342;
         color: #ccc;
         
-
     }
+body{
+        display: flex;
+        flex-direction: column;
+}

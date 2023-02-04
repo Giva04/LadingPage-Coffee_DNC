@@ -40,6 +40,7 @@ modal.addEventListener("click",() =>{
     // mostrar mensagem com informações e contato
     modalCard = document.createElement("div");
     modalLugar.style.visibility = "visible";
+    modalLugar.removeAttribute("hidden")
     
     modalCard.innerHTML = `<div class="modalAtendimento"><button><img src="imagens/fechar.svg" onClick="closeModal()"></button>
     <h1>Atendimento</h1>
